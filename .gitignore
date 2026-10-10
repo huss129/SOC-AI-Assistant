@@ -1,0 +1,16 @@
+venv/
+soc.db
+soc.db-*
+alerts.json
+alerts.json~
+labeled.json
+scenarios.json
+verdicts.json
+results*.csv
+eval2_*.csv
+__pycache__/
+backups/
+*.log
+.env
+analyze_v1_backup.py
+analyze_v1_backup.py
