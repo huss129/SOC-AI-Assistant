@@ -38,7 +38,7 @@ makes the final decision with deterministic Python rules. Nothing leaves the mac
 cd ~/wazuh-docker/single-node && docker compose start   # wait ~4 min
 cd ~/soc-ai && source venv/bin/activate
 python worker.py --loop
-streamlit run app2.py --server.headless true --server.address 127.0.0.1
+streamlit run app2.py --server.headless true --server.address 0.0.0.0 
 python -m pytest tests -q
 ```
 Set WAZUH_PASS as an environment variable; do not commit credentials.
